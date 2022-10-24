@@ -1,0 +1,414 @@
+17. Bài tập: Xác định địa chỉ IP khi biết tên miền.
+static void Main(string[] args)
+        {
+            string domain;
+            Console.WriteLine("Input Domain :");
+            domain = Console.ReadLine();
+            Console.WriteLine("IP of Domain is: "+Dns.GetHostAddresses(domain)[0]);
+
+        }
+18. Bài tập: Xác định địa chỉ IP được thiết lập cho máy tính chạy chương trình (máy tính hiện tại).
+private string GetLocalIP()
+        {
+            IPHostEntry host;
+            host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach(IPAddress ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                {
+                    return ip.ToString();
+                }
+            }
+            return "127.0.0.1";
+        }
+
+19. Bài tập: Tải dữ liệu từ một URL (HTTP/HTTPS) và lưu thành tệp tin, hoặc hiển thị (text-plain).
+static void Main(string[] args)
+        {
+            string domain;
+            Console.WriteLine("Input Domain :");
+            domain = Console.ReadLine();
+            WebClient Client = new WebClient();
+            Client.DownloadFile(domain,"myfile.html");
+
+        }
+
+x.x.x.x
+20 -21. Xác định xem một địa chỉ IPv4 thuộc lớp nào (Lớp A, B, C, D, E)?
+public static char FindClass(int octet1)
+        {
+            if (octet1 >= 1 && octet1 <= 127)
+                return 'A';
+
+            else if (octet1 >= 128 && octet1 <= 191)
+                return 'B';
+
+            else if (octet1 >= 192 && octet1 <= 223)
+                return 'C';
+
+            else if (octet1 >= 224 && octet1 <= 239)
+                return 'D'; //Cau 21 : Kiem tra IP Multicast
+
+            else
+                return 'E';
+        }
+22. Xác định xem một địa chỉ IPv4 có phải là địa chỉ nội bộ hay không ? 
+        public static bool IsLocalIpAddress(string ip)
+        {
+            try
+            {
+                IPAddress IP = IPAddress.Parse(ip);
+                // Lấy địa chỉ IP cục bộ
+                IPAddress[] localIPs = Dns.GetHostAddresses(Dns.GetHostName());
+
+                // Kiểm tra
+
+                    // localhost
+                    if (IPAddress.IsLoopback(IP)) return true;
+                    // local address
+                    foreach (IPAddress localIP in localIPs)
+                    {
+                        if (IP.Equals(localIP)) return true;
+                    }
+            }
+            catch { }
+            return false;
+      }
+24. Xác định xem một địa chỉ có nằm trong một khối địa chỉ cho trước hay không (VD: 192.168.32.0/22)
+ class Program
+    {
+        static string IPAddrToBinary(string input)
+        {
+            return String.Join("",(input.Split('.').Select(x => Convert.ToString(Int32.Parse(x), 2).PadLeft(8, '0'))).ToArray());
+        }
+        static void Main(string[] args)
+        {
+            string ip_main_bin, ip_check_bin, ip_main_cut, ip_check_cut;
+            int prefix;
+            Console.WriteLine("Nhap IP khoi dia chi : ");
+            ip_main_bin = IPAddrToBinary(Console.ReadLine());
+            Console.WriteLine("Nhap prefix: ");
+            prefix = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Nhap IP can kiem tra : ");
+            ip_check_bin = IPAddrToBinary(Console.ReadLine());
+            ip_main_cut = ip_main_bin.Substring(0, prefix+1);
+            ip_check_cut = ip_check_bin.Substring(0, prefix+1);
+            if (ip_main_cut == ip_check_cut)
+                Console.WriteLine("Dia chi IP can kiem tra nam trong khoi dia chi IP vua nhap");
+            else
+                Console.WriteLine("Dia chi IP can kiem tra khong nam trong khoi dia chi IP vua nhap");
+        }
+    }
+
+16. Viết chương trình sử dụng mạng (Lập trình socket TCP / UDP) 
+
+16.1. TCP 
+VD : Client gửi 2 số đến Server, Server tính tổng rồi trả về kết quả cho Client 
+
+SERVER SIDE 
+
+using System;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+
+namespace Server_Revision
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string so1, so2;
+            int a, b, tong;
+            try {
+                IPAddress address = IPAddress.Parse("127.0.0.1");
+                TcpListener listener = new TcpListener(address, 9999);
+
+                listener.Start();
+                Console.WriteLine("Server : " +listener.LocalEndpoint);
+                Console.WriteLine("Dang doi ket noi ....");
+
+                Socket socket = listener.AcceptSocket();
+                Console.WriteLine("Da phat hien ket noi : " + socket.LocalEndPoint);
+
+                var stream = new NetworkStream(socket);
+                var reader = new StreamReader(stream);
+                var writer = new StreamWriter(stream);
+                writer.AutoFlush = true;
+
+                while (true)
+                {
+                    so1 = reader.ReadLine();
+                    so2 = reader.ReadLine();
+                    a = Convert.ToInt32(so1);
+                    b = Convert.ToInt32(so2);
+                    
+                    if(so1.ToUpper() == "EXIT")
+                    {
+                        writer.WriteLine("Close !");
+                        break;
+                    }
+
+                    tong = a + b;
+                    writer.WriteLine(tong.ToString());
+
+                }
+                stream.Close();
+                socket.Close();
+                listener.Stop();
+
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Error: " + e);
+            }
+        }
+    }
+}
+
+CLIENT SIDE 
+
+using System;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+
+namespace Client_Revision
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string so1, so2, tong;
+            try {
+                TcpClient client = new TcpClient();
+
+                client.Connect("127.0.0.1", 9999);
+                Stream stream = client.GetStream();
+
+                Console.WriteLine("Đã kết nối đến server");
+                var reader = new StreamReader(stream);
+                var writer = new StreamWriter(stream);
+                writer.AutoFlush = true;
+                while (true)
+                {
+
+
+                    Console.WriteLine("Nhap so 1 : ");
+                    so1 = Console.ReadLine();
+                    Console.WriteLine("Nhap so 2 : ");
+                    so2 = Console.ReadLine();
+
+
+
+                    writer.WriteLine(so1);
+                    writer.WriteLine(so2);
+                    tong = reader.ReadLine();
+
+                    Console.WriteLine("Tong hai so la: " + tong);
+
+                    if (so1.ToUpper() == "BYE")
+                        break;
+                }
+                stream.Close();
+                client.Close();
+                
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine("Error : " + e);
+            }
+        }
+    }
+}
+
+16.2. UDP 
+
+SERVER SIDE : 
+using System;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+namespace Server_UDP
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+
+            var localIp = IPAddress.Any;
+            var localPort = 9999;
+            var localEndPoint = new IPEndPoint(localIp, localPort);
+            var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+            socket.Bind(localEndPoint);
+            Console.WriteLine("Doi ket noi ...");
+            var size = 1024;
+            var receiveBuffer = new byte[size];
+
+            while (true)
+            {
+                EndPoint remoteEndpoint = new IPEndPoint(IPAddress.Any, 0);
+                var length = socket.ReceiveFrom(receiveBuffer, ref remoteEndpoint);
+                var text = Encoding.ASCII.GetString(receiveBuffer, 0, length);
+                Console.WriteLine($"Da phat hien ket noi {remoteEndpoint}: {text}");
+
+                var result = text.ToUpper();
+
+                var sendBuffer = Encoding.ASCII.GetBytes(result);
+                socket.SendTo(sendBuffer, remoteEndpoint);
+
+                Array.Clear(receiveBuffer, 0, size);
+            }
+        }
+    }
+}
+
+CLIENT SIDE : 
+using System;
+using System.Net; // để sử dụng lớp IPAddress, IPEndPoint
+using System.Net.Sockets; // để sử dụng lớp Socket
+using System.Text; // để sử dụng lớp Encoding
+
+namespace Client_UDP
+{
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            
+            var serverIp = IPAddress.Parse("127.0.0.1");
+
+
+            var serverEndpoint = new IPEndPoint(serverIp, 9999);
+
+            var size = 1024;
+            var receiveBuffer = new byte[size];            
+
+            while (true)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("# Text >>> ");
+                Console.ResetColor();
+                var text = Console.ReadLine();
+
+                var socket = new Socket(SocketType.Dgram, ProtocolType.Udp);
+
+                var sendBuffer = Encoding.ASCII.GetBytes(text);
+                socket.SendTo(sendBuffer, serverEndpoint);
+
+                EndPoint dummyEndpoint = new IPEndPoint(IPAddress.Any, 0);
+                var length = socket.ReceiveFrom(receiveBuffer, ref dummyEndpoint);
+                var result = Encoding.ASCII.GetString(receiveBuffer, 0, length);
+                // xóa bộ đệm (để lần sau sử dụng cho yên tâm)
+                Array.Clear(receiveBuffer, 0, size);
+
+                // đóng socket và giải phóng tài nguyên
+                socket.Close();
+
+                // in kết quả ra màn hình
+                Console.WriteLine($">>> {result}");
+            }
+        }
+    }
+}
+
+26. Viết một đoạn chương trình kết nối tới server ở địa chỉ 192.168.1.1 tại cổng 80 và xác định xem quá trình khởi tạo kết nối tới server mất bao nhiêu thời gian.
+Stopwatch timer = new Stopwatch();
+                TcpClient client = new TcpClient();
+                timer.Start();
+                client.Connect("192.168.1.1", 80);
+                Stream stream = client.GetStream();
+                timer.Stop();
+                Console.WriteLine("Da ket noi den server");
+                Console.WriteLine("Thoi gian khoi tao ket noi toi server :" + timer.ElapsedMilliseconds.ToString() +" Miliseconds");
+
+
+25. Lập trình đa tuyến đoạn/lập trình đa luồng/lập trình song song // Multi Thread
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Net;
+using System.Net.Sockets;
+using System.Threading;
+ 
+class StudentTCPServer{
+ 
+    const int MAX_CONNECTION = 10;
+    const int PORT_NUMBER=9999;
+ 
+    static TcpListener listener;
+ 
+    static Dictionary<string, string> _data =
+        new Dictionary<string, string>
+    {
+        {"1","Thomas"},
+        {"2","John"},
+        {"3","Joseph"},
+        {"4","Paul"},
+        {"5","Matthew"},
+    };
+ 
+    public static void Main()
+    {
+        IPAddress address = IPAddress.Parse("127.0.0.1");
+ 
+        listener = new TcpListener(address,PORT_NUMBER);
+        Console.WriteLine("Waiting for connection...");
+        listener.Start();
+ 
+        for(int i = 0;i < MAX_CONNECTION;i++){
+            new Thread(DoWork).Start();
+        }
+    }
+ 
+    static void DoWork()
+    {
+        while(true)
+        {
+            Socket soc = listener.AcceptSocket();
+ 
+            Console.WriteLine("Connection received from: {0}",
+                              soc.RemoteEndPoint);
+            try{
+                var stream = new NetworkStream(soc);
+                var reader = new StreamReader(stream);
+                var writer = new StreamWriter(stream);
+                writer.AutoFlush = true;
+ 
+                writer.WriteLine("Welcome to Student TCP Server");
+                writer.WriteLine("Please enter the student id");
+ 
+                while(true)
+                {
+                    string id = reader.ReadLine();
+ 
+                    if(String.IsNullOrEmpty(id))
+                        break; // disconnect
+ 
+                    if(_data.ContainsKey(id))
+                        writer.WriteLine("Student's name: '{0}'",_data[id]);
+                    else
+                        writer.WriteLine("Can't find name for student id '{0}'",id);
+                }
+                stream.Close();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Error: "+ex);
+            }
+ 
+            Console.WriteLine("Client disconnected: {0}",
+                              soc.RemoteEndPoint);
+            soc.Close();
+        }
+    }
+}
+
+27. Tạo ra một địa địa chỉ mạng dạng như sau 192.168.1.x trong đó là x là một giá trị ngẫu nhiên được lựa chọn mỗi khi chạy đoạn chương trình.
+ static void Main(string[] args)
+        {
+            Random r = new Random();
+            Console.WriteLine("Sinh IP ngau nhien dang 192.168.1.x : ");
+            Console.WriteLine("192.168.1."+r.Next(0,255));
+        }

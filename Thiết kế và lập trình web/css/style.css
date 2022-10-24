@@ -1,0 +1,27 @@
+/* h2,p{
+    color: blueviolet;
+    font-size: 50px;
+}
+.prar1{
+    color: blueviolet;
+    font-size: large;
+}
+#tittle2{
+    color: green;
+} */
+#box1 h2{
+    color: red;
+    font-size: 20px;
+}
+#box1 p{
+    color: black;
+    font-size: 16px;
+}
+#box2 h2{
+    color: green;
+    font-size: 30px;
+}
+#box2 p{
+    color: black;
+    font-size: 14px;
+}

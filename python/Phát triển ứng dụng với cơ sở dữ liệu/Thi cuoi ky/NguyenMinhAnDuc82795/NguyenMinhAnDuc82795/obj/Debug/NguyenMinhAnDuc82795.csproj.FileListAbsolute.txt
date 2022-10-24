@@ -1,0 +1,13 @@
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\bin\Debug\NguyenMinhAnDuc82795.exe.config
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\bin\Debug\NguyenMinhAnDuc82795.exe
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\bin\Debug\NguyenMinhAnDuc82795.pdb
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.csprojAssemblyReference.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.frmSinhVien82795.resources
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.Properties.Resources.resources
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.csproj.GenerateResource.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.csproj.CoreCompileInputs.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.csproj.CopyComplete
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.exe
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\Thi cuoi ky\NguyenMinhAnDuc82795\NguyenMinhAnDuc82795\obj\Debug\NguyenMinhAnDuc82795.pdb

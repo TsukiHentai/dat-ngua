@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\bin\Debug\DuAnNguyenTheHuy83428.exe.config
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\bin\Debug\DuAnNguyenTheHuy83428.exe
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\bin\Debug\DuAnNguyenTheHuy83428.pdb
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.Properties.Resources.resources
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.csproj.CopyComplete
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.exe
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.pdb
+C:\Users\Admin\source\repos\DuAnNguyenTheHuy83428\DuAnNguyenTheHuy83428\obj\Debug\DuAnNguyenTheHuy83428.NguyenThehuy83428.resources

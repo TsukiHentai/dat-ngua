@@ -1,0 +1,19 @@
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmNhanVien.resources
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\bai cua bo may\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmNhanVien.resources
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.CoreCompileInputs.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\drive-download-20210427T064438Z-001\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb

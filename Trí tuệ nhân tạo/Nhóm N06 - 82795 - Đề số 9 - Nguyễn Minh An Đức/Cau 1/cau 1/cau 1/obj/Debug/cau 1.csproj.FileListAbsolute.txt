@@ -1,0 +1,20 @@
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\bin\Debug\cau 1.exe.config
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\bin\Debug\cau 1.exe
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\bin\Debug\cau 1.pdb
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau 1.csproj.AssemblyReference.cache
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau_1.Form1.resources
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau_1.Properties.Resources.resources
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau 1.csproj.GenerateResource.cache
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau 1.csproj.CoreCompileInputs.cache
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau 1.exe
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 1\cau 1\cau 1\obj\Debug\cau 1.pdb
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\bin\Debug\cau 1.exe.config
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\bin\Debug\cau 1.exe
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\bin\Debug\cau 1.pdb
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau 1.csproj.AssemblyReference.cache
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau_1.Form1.resources
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau_1.Properties.Resources.resources
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau 1.csproj.GenerateResource.cache
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau 1.csproj.CoreCompileInputs.cache
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau 1.exe
+C:\Users\Tsuki Hentai\Desktop\Nhóm N06 - 82795 - Đề số 9\Cau 1\cau 1\cau 1\obj\Debug\cau 1.pdb

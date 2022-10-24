@@ -1,0 +1,85 @@
+CREATE DATABASE QLYTHUEPHONG
+GO
+USE QLYTHUEPHONG
+GO
+CREATE TABLE KHACHHANG
+(
+	MaKH char(30),
+	Tenkh nvarchar(30),
+	CMND int, 
+	Diachi nvarchar(30), 
+	Ngaysinh date, 
+	Gioitinh nvarchar(30),
+	constraint PK_KHACHHANG primary key(MaKH)
+)
+GO
+
+CREATE TABLE PHONG
+(
+	LoaiPhong char(30),
+	GiaTien int,
+	constraint PK_PHONG primary key(LoaiPhong)
+)
+CREATE TABLE THUEPHONG
+(
+	MaKH char(30),
+	NgayDi date,
+	NgayDen date,
+	LoaiPhong char(30),
+)
+GO
+
+Alter table PHONG
+	add constraint FK_PHONG_KHACHHANG
+	foreign key(MaKH)
+	references KHACHHANG(MaKH)
+Alter table THUEPHONG
+	add constraint FK_THUEPHONG_PHONG
+	foreign key(LoaiPhong)
+	references PHONG(LoaiPhong)
+
+GO
+
+INSERT INTO KHACHHANG(MaKH, TenKH, CMND, DiaChi, NgaySinh, GioiTinh)
+VALUES ('001', N'Nguyễn Thị Vân', 031112345, N'27 Minh Khai, Hải Phòng', '11-09-1990', N'Nữ')
+INSERT INTO KHACHHANG(MaKH, TenKH, CMND, DiaChi, NgaySinh, GioiTinh)
+VALUES ('002', N'Trần Thanh Vân', 031789666, N'44 Trần Phú, Hải Phòng', '12-12-1997', N'Nữ')
+INSERT INTO KHACHHANG(MaKH, TenKH, CMND, Di032111890aChi, NgaySinh, GioiTinh)
+VALUES ('003', N'Pham Bằng',032111890, N'67 Ng Huệ, Quảng Ninh', '24-02-1980', N'Nam')
+INSERT INTO KHACHHANG(MaKH, TenKH, CMND, DiaChi, NgaySinh, GioiTinh)
+VALUES ('004', N'Bùi Văn Hùng', 032000678, N'Quảng Ninh', ' ', N'Nam')
+INSERT INTO KHACHHANG(MaKH, TenKH, CMND, DiaChi, NgaySinh, GioiTinh)
+VALUES ('005', N'Trần Nha Trang', 034898777, N'Tuệ Tĩnh, Hải Dương', '01-01-1970', N'Nam')
+
+INSERT INTO PHONG(LoaiPhong, GiaTien)
+VALUES ('A', 200)
+
+INSERT INTO PHONG(LoaiPhong, GiaTien)
+VALUES ('B', 500)
+
+INSERT INTO PHONG(LoaiPhong, GiaTien)
+VALUES ('c', 700)
+
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('001', '12-12-2015', '13-12-2015', 'A')
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('001', '01-04-2016', '02-04-2016', 'B')
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('002', '11-12-2015', '17-12-2015', 'C')
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('003', '12-01-2016', '15-01-2016', 'A')
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('005', '25-12-2015', '25-12-2015', 'B')
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('004', '12-12-2014', '15-12-2014', 'A')
+
+INSERT INTO THUEPHONG(MaKH, NgayDen, NgayDi, LoaiPhong)
+VALUES ('001', '11-06-2016', '12-06-2016', 'C')
+
+

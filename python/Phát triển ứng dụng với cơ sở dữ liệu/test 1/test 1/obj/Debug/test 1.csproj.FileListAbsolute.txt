@@ -1,0 +1,19 @@
+F:\test 1\test 1\bin\Debug\test 1.exe.config
+F:\test 1\test 1\obj\Debug\test 1.csprojResolveAssemblyReference.cache
+F:\test 1\test 1\obj\Debug\test_1.frmDonVi.resources
+F:\test 1\test 1\obj\Debug\test_1.Properties.Resources.resources
+F:\test 1\test 1\obj\Debug\test 1.csproj.GenerateResource.Cache
+F:\test 1\test 1\bin\Debug\test 1.exe
+F:\test 1\test 1\bin\Debug\test 1.pdb
+F:\test 1\test 1\obj\Debug\test 1.exe
+F:\test 1\test 1\obj\Debug\test 1.pdb
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\bin\Debug\test 1.exe.config
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\bin\Debug\test 1.exe
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\bin\Debug\test 1.pdb
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test 1.csprojAssemblyReference.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test_1.frmDonVi.resources
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test_1.Properties.Resources.resources
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test 1.csproj.GenerateResource.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test 1.csproj.CoreCompileInputs.cache
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test 1.exe
+C:\Users\Pro build\Desktop\Phát triển ứng dụng với cơ sở dữ liệu\test 1\test 1\obj\Debug\test 1.pdb

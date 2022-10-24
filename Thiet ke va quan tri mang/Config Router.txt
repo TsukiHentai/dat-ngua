@@ -1,0 +1,106 @@
+PC7: 	
+	IP: 192.168.2.100
+	SUBNET MASK: 255.255.255.0
+	DEFAULT GATEWAY:192.168.2.1
+PC8:
+	IP: 192.168.3.100
+	SUBNET MASK: 255.255.255.0
+	DEFAULT GATEWAY:192.168.3.1
+PC9:
+	IP: 192.168.1.100
+	SUBNET MASK: 255.255.255.0
+	DEFAULT GATEWAY:192.168.1.1
+
+PC7 ==> PC8
+RT0: enable
+conf ter
+int g0/0
+ip address 192.168.2.1 255.255.255.0
+no shutdown
+exit
+int g0/1
+ip address 10.10.10.2 255.255.255.252 (/30)
+no shutdown
+exit
+ip route 192.168.3.0 255.255.255.0 10.10.10.1
+
+RT1: en
+conf ter
+int g0/2
+ip address 10.0.1.1 255.255.255.252
+no shutdown
+exit
+int g0/1
+ip address 10.10.10.1 255.255.255.252
+no shutdown
+exit
+ip route 192.168.3.0 255.255.255.0 10.0.1.2
+ip route 192.168.2.0 255.255.255.0 10.10.10.2
+
+RT2: en
+conf ter
+int g0/1
+ip address 10.0.5.1 255.255.255.252
+no shutdow
+exit
+int g0/0
+ip address 10.0.1.2 255.255.255.252
+no shutdown
+exit
+ip route 192.168.3.0 255.255.255.0 10.0.5.2
+ip route 192.168.2.0 255.255.255.0 10.0.1.1
+
+RT4: en
+conf ter
+int g0/2
+ip address 10.0.4.1 255.255.255.252
+no shutdown
+exit
+int g0/0
+ip address 10.0.5.2 255.255.255.252
+no shutdown
+exit
+ip route 192.168.3.0 255.255.255.0 10.0.4.2
+ip route 192.168.2.0 255.255.255.0 10.0.5.1
+
+RT5: en
+conf ter
+int g0/0
+ip address 192.168.3.1 255.255.255.0
+no shutdown
+exit
+int g0/1
+ip address 10.0.4.2 255.255.255.252
+no shutdown
+exit
+ip route 192.168.2.0 255.255.255.0 10.0.4.1
+
+PC7 ==> PC9
+RT0: en
+conf ter
+ip route 192.168.1.0 255.255.255.0 10.10.10.1
+
+RT1: en
+conf ter
+int g0/0
+ip address 10.0.3.1 255.255.255.252
+no shutdown
+exit
+ip route 192.168.1.0 255.255.255.0 10.0.3.2
+ip route 192.168.2.0 255.255.255.0 10.10.10.2
+
+RT3: en
+conf ter
+int g0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+int g0/1
+ip address 10.0.3.2 255.255.255.252
+no shutdown
+exit
+ip route 192.168.2.0 255.255.255.0 10.0.3.1
+
+
+
+

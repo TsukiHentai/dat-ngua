@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\Câu 1\Câu 1\bin\Debug\Câu 1.exe.config
+C:\Users\Admin\Desktop\Câu 1\Câu 1\obj\Debug\Câu 1.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Câu 1\Câu 1\obj\Debug\Câu_1.Form1.resources
+C:\Users\Admin\Desktop\Câu 1\Câu 1\obj\Debug\Câu_1.Properties.Resources.resources
+C:\Users\Admin\Desktop\Câu 1\Câu 1\obj\Debug\Câu 1.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\Câu 1\Câu 1\bin\Debug\Câu 1.exe
+C:\Users\Admin\Desktop\Câu 1\Câu 1\bin\Debug\Câu 1.pdb
+C:\Users\Admin\Desktop\Câu 1\Câu 1\obj\Debug\Câu 1.exe
+C:\Users\Admin\Desktop\Câu 1\Câu 1\obj\Debug\Câu 1.pdb
+C:\Users\Admin\Desktop\New folder\Đề 6\Câu 1\Câu 1\bin\Debug\Câu 1.exe.config
+C:\Users\Admin\Desktop\New folder\Đề 6\Câu 1\Câu 1\obj\Debug\Câu 1.exe
+C:\Users\Admin\Desktop\New folder\Đề 6\Câu 1\Câu 1\obj\Debug\Câu 1.pdb

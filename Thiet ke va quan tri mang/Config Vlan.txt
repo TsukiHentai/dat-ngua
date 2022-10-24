@@ -1,0 +1,65 @@
+SW1: enable
+conf ter
+vlan 3
+name VL3
+exit
+vlan 4
+name VL4
+exit
+interface f0/1
+switchport mode trunk
+switchport trunk allowed vlan all
+exit
+interface f0/3
+switchport mode access
+switchport access vlan 3
+exit
+interface f0/2
+switchport mode access
+switchport access vlan 4
+exit
+
+SW2: enable
+conf ter
+vlan 4
+name VL4
+exit
+interface f0/2
+switchport mode access
+switchport access vlan 4
+exit
+interface f0/1
+switchport mode trunk
+switchport trunk allowed vlan all
+exit
+
+SW3: enable
+conf ter
+vlan 4
+name VL4
+exit
+vlan 5
+name VL5
+exit
+interface f0/2
+switchport mode access
+switchport access vlan 4
+exit
+interface f0/4
+switchport mode access
+switchport access vlan 5
+exit
+interface f0/1
+switchport mode trunk
+switchport trunk allowed vlan all
+exit
+
+SW4: enable
+conf ter
+vlan 5
+name VL5
+exit
+interface f0/1
+switchport mode access
+switchport access vlan 5
+exit

@@ -1,0 +1,19 @@
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\bin\Debug\Câu 2.exe.config
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\bin\Debug\Câu 2.exe
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\bin\Debug\Câu 2.pdb
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\obj\Debug\Câu_2.Form1.resources
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\obj\Debug\Câu_2.Properties.Resources.resources
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.exe
+C:\Users\Admin\Desktop\New folder\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.pdb
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\bin\Debug\Câu 2.exe.config
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\bin\Debug\Câu 2.exe
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\bin\Debug\Câu 2.pdb
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.csproj.AssemblyReference.cache
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu_2.Form1.resources
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu_2.Properties.Resources.resources
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.csproj.GenerateResource.cache
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.csproj.CoreCompileInputs.cache
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.exe
+C:\Users\Tsuki Hentai\Desktop\LTW\Đề 9\Câu 2\Câu 2\obj\Debug\Câu 2.pdb

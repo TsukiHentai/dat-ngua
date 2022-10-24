@@ -1,0 +1,10 @@
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\bin\Debug\Cau 2.exe.config
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\bin\Debug\Cau 2.exe
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\bin\Debug\Cau 2.pdb
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau 2.csproj.AssemblyReference.cache
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau_2.Form1.resources
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau_2.Properties.Resources.resources
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau 2.csproj.GenerateResource.cache
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau 2.csproj.CoreCompileInputs.cache
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau 2.exe
+C:\Users\Tsuki Hentai\Desktop\Thư mục mới\Cau 2\Cau 2\Cau 2\obj\Debug\Cau 2.pdb

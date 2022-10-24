@@ -1,0 +1,44 @@
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.exe
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.deps.json
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.runtimeconfig.json
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.pdb
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.Form1.resources
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csproj.CopyComplete
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.dll
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.pdb
+C:\Users\Admin\source\repos\CHAMCONG\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.genruntimeconfig.cache
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.exe
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.deps.json
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.runtimeconfig.json
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.runtimeconfig.dev.json
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\CHAMCONG.pdb
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csprojAssemblyReference.cache
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.Form1.resources
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csproj.GenerateResource.cache
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.AssemblyInfoInputs.cache
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.AssemblyInfo.cs
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csproj.CoreCompileInputs.cache
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.csproj.CopyComplete
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.dll
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.pdb
+C:\Users\Pro build\Desktop\ChamCong\ChamCong\CHAMCONG\obj\Debug\netcoreapp3.1\CHAMCONG.genruntimeconfig.cache
