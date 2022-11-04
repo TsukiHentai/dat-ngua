@@ -1,0 +1,57 @@
+/* #box1{
+    background-color: rgb(100, 23, 31);
+    background-color: red; */
+    /* background-color: #ffa089;
+    height: 2000px;
+    width: 500px;
+    background-image: url("5464369.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: right top;
+    font-family:
+} */
+body{
+    font-size: 14px;
+}
+#box1 h2{
+    font-family: tahoma,arial, sans-serif;
+    color: red;
+    font-size: 1.5em;
+}
+#box1 p{
+    color: black;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness:10%;
+    text-transform: capitalize;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px yellow;
+}
+#box1 a:link{
+    color: red;
+}
+#box1 a:visited{
+    color: orange;
+}
+#box1 a:hover{
+    color: green;
+}
+#box1 a:active{
+    color: blue;
+}
+#box2 h2{
+    color: green;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+#box2 p{
+    color: black;
+    font-size: 1em;
+}
