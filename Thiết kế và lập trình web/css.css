@@ -14,7 +14,15 @@
 body{
     font-size: 14px;
 }
-#box1 h2{
+#conteiner{
+    widows: 800px;
+    height: 800px;
+    border: 3px solid black;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+}
+/* #box1 h2{
     font-family: tahoma,arial, sans-serif;
     color: red;
     font-size: 1.5em;
@@ -54,4 +62,75 @@ body{
 #box2 p{
     color: black;
     font-size: 1em;
+} */
+#box1{
+    width: 300px;
+    height: 500px;
+    border: dashed;
+    border-width: 3px;
+    border-color: red;
+    background-color: red;
+    position: absolute;
+    top:10px;
+    left: 20px;
+    z-index: 5;
+    /* border: 10px solid red;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+     padding: 25px 50px 75px 100px;
+    margin-right: 50px;
+    float: left; */
+}
+#box2{
+    width: 300px;
+    height: 500px;
+    border: 3px solid green;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    z-index: 6;
+    /* margin-top: 50px;
+    float: left;
+    margin-right: 50px; */
+}
+
+#box3{
+    width: 300px;
+    height: 500px;
+    border: 3px double blue;
+    background-color:green;
+    position: absolute;
+    top: 100px;
+    left:120px;
+    z-index: 3;
+    /* float: left;
+    margin-right: 50px; */
+}
+#box4{
+    width: 300px;
+    height: 500px;
+    border: 3px solid green;
+    margin-top: 50px;
+    float: left;
+    margin-right: 50px;
+}
+#box5{
+    width: 300px;
+    height: 500px;
+    border: 3px solid green;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: yellow;
+    clear: both
+}
+#box6{
+    width: 300px;
+    height: 500px;
+    border: 3px solid green;
+    margin-top: 50px;
+    background-color: green;
+    margin-right: 50px;
+    clear: both;
 }
