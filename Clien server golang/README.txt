@@ -1,0 +1,1 @@
+Xây dựng ứng dụng giao tiếp giữa 2 client thông qua server đơn giản sử dụng ngôn ngữ Go
